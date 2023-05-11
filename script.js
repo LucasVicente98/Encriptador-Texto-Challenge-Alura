@@ -59,7 +59,7 @@ function copiar() {
   mensagem.setSelectionRange(0, 99999);
   document.execCommand("copy");
   alert("Texto copiado para a área de transferência!");
-  mensagem.value = "";
+  mensagem.value = ""; // Após copiar o texto, text area volta a ficar em branco.
 
   setTimeout(() => {
     mensagem.style.backgroundImage = "url(/imagens/boneco.png)";
