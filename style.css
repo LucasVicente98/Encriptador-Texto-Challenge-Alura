@@ -1,4 +1,4 @@
-*{
+* {
     background-color: lightcyan;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -6,19 +6,19 @@
     line-height: 150%;
 }
 
-.logo-challenge{
+.logo-challenge {
     margin-left: 10px;
     padding-top: 10px;
     width: 2%;
 }
 
-main{
+main {
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
 }
 
-.text-area{
+.text-area {
     resize: none;
     border: none;
     border-radius: 30px;
@@ -27,36 +27,39 @@ main{
     text-transform: lowercase;
 }
 
-::placeholder{color: #0A3871;}
-    .text-area:focus{
-        outline: none;
-    }
+::placeholder {
+    color: #0A3871;
+}
 
-    .mensagem{
-        resize: none;
-        background: white;
-        background-image: url(/imagens/boneco.png);
-        background-repeat: no-repeat;
-        background-position: center bottom 78px;
-        border: none;
-        border-radius: 24px;
-        color: #0A3871;
-        margin-left: 90px;
-        margin-top: -10px;
-        padding: 20px;
-        position: fixed;
-    }
-
-.mensagem:focus{
+.text-area:focus {
     outline: none;
 }
 
-.botoes{
+.mensagem {
+    resize: none;
+    background: white;
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 78px;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: -10px;
+    padding: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
     display: flex;
     margin-top: 18px;
 }
 
-.botao-encriptar{
+.botao-encriptar {
     background-color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -66,7 +69,7 @@ main{
     width: 320px;
 }
 
-.botao-desencriptar{
+.botao-desencriptar {
     background-color: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -77,7 +80,7 @@ main{
     width: 320px;
 }
 
-.botao-copiar{
+.botao-copiar {
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
@@ -89,10 +92,10 @@ main{
     width: 320px;
 }
 
-.orientacao{
+.orientacao {
     color: #495057;
 }
 
-.orientacao h6{
+.orientacao h6 {
     font-size: 18px;
 }

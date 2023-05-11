@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
+
 <body>
     <header>
         <img class="logo-challenge" src="imagens/logo.png" alt="Imagem da logo da Alura">
@@ -16,18 +18,19 @@
 
     <main>
         <section>
-            <textarea class="text-area" cols="40" rows="4" maxlength="128" placeholder="Digite o texto aqui..."></textarea>
-            
+            <textarea class="text-area" cols="40" rows="4" maxlength="128"
+                placeholder="Digite o texto aqui..."></textarea>
+
             <div class="orientacao">
                 <h6>&#x1F6C8 Somente letras minúsculas e sem acento, máximo 128 caracteres.</h6>
             </div>
-           
+
             <div class="botoes">
                 <button class="botao-encriptar" onclick="botaoEncriptar()">Criptografar</button>
                 <button class="botao-desencriptar" onclick="botaoDesencriptar()">Descriptografar</button>
             </div>
         </section>
-    
+
         <section>
             <textarea class="mensagem" cols="20" rows="10" maxlength="128" readonly></textarea>
             <button class="botao-copiar" onclick="copiar()">Copiar</button>
@@ -35,4 +38,5 @@
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
