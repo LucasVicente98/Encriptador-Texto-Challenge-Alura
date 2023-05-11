@@ -16,10 +16,10 @@
 
     <main>
         <section>
-            <textarea class="text-area" cols="40" rows="4" placeholder="Digite o seu texto aqui..."></textarea>
+            <textarea class="text-area" cols="40" rows="4" maxlength="128" placeholder="Digite o texto aqui..."></textarea>
             
             <div class="orientacao">
-                <h6>Somente letras minúsculas e sem acento</h6>
+                <h6>&#x1F6C8 Somente letras minúsculas e sem acento, máximo 128 caracteres.</h6>
             </div>
            
             <div class="botoes">
@@ -29,7 +29,7 @@
         </section>
     
         <section>
-            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <textarea class="mensagem" cols="20" rows="10" maxlength="128" readonly></textarea>
             <button class="botao-copiar" onclick="copiar()">Copiar</button>
         </section>
     </main>

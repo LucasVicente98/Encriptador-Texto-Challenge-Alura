@@ -19,7 +19,9 @@ main{
 }
 
 .text-area{
+    resize: none;
     border: none;
+    border-radius: 30px;
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
@@ -30,18 +32,21 @@ main{
         outline: none;
     }
 
-.mensagem{
-    background: white;
-    background-image: url(/imagens/boneco.png);
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding: 20px;
-    position: fixed;
-}
+    .mensagem{
+        resize: none;
+        background: white;
+        background-image: url(/imagens/boneco.png);
+        background-repeat: no-repeat;
+        background-position: center bottom 78px;
+        border: none;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 90px;
+        margin-top: -10px;
+        padding: 20px;
+        position: fixed;
+    }
+
 .mensagem:focus{
     outline: none;
 }
@@ -57,8 +62,8 @@ main{
     border-radius: 24px;
     color: white;
     cursor: pointer;
-    height: 67px;
-    width: 328px;
+    height: 60px;
+    width: 320px;
 }
 
 .botao-desencriptar{
@@ -67,9 +72,9 @@ main{
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
-    height: 67px;
+    height: 60x;
     margin-left: 37px;
-    width: 328px;
+    width: 320px;
 }
 
 .botao-copiar{
@@ -77,11 +82,11 @@ main{
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
-    height: 67px;
+    height: 60px;
     margin-left: 118px;
     margin-top: 408px;
     position: absolute;
-    width: 338px;
+    width: 320px;
 }
 
 .orientacao{
