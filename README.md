@@ -1,4 +1,4 @@
-# Encriptador-Texto-Challenge-Alura
+# Encriptador de Texto - Challenge Alura
 
 Primeiro Challenge do ONE - Oracle Next Education
 
@@ -32,3 +32,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## Conclusão
 
 O encriptador de texto com JavaScript é uma ferramenta básica, porém útil para proteger informações sensíveis de terceiros. O algoritmo é eficaz para este propósito e a interface de usuário é intuitiva e fácil de usar. O uso de tecnologias como HTML, CSS e JavaScript torna o projeto acessível e escalável. Além disso, a funcionalidade "copiar" permite que o usuário utilize o resultado de forma conveniente e eficiente.
+
+
+## Autor
+
+Lucas Leite Vicente
