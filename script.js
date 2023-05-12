@@ -4,7 +4,7 @@ const mensagem = document.querySelector(".mensagem");
 function botaoEncriptar() {
   const textoEncriptado = encriptar(textArea.value);
   mensagem.value = textoEncriptado;
-  mensagem.style.backgroundImage = "none"; // adicionando essa linha
+  mensagem.style.backgroundImage = "none";
   textArea.value = "";
 
   setTimeout(() => {
@@ -14,7 +14,7 @@ function botaoEncriptar() {
 
 // A letra "e" é convertida para "entry"
 // A letra "i" é convertida para "interm"
-// A letra "a" é convertida para "alao"
+// A letra "a" é convertida para "alah"
 // A letra "o" é convertida para "orbit"
 // A letra "u" é convertida para "uhfa"
 
@@ -34,12 +34,12 @@ function encriptar(stringEncriptada) {
 function botaoDesencriptar() {
   const textoDesencriptado = desencriptar(textArea.value);
   mensagem.value = textoDesencriptado;
-  mensagem.style.backgroundImage = "none"; // adicionando essa linha
+  mensagem.style.backgroundImage = "none";
   textArea.value = "";
 
   setTimeout(() => {
     mensagem.style.backgroundImage = "url(/imagens/boneco.png)";
-  }, 1500); // adicionando essa linha
+  }, 1500);
 }
 
 function desencriptar(stringDesencriptada) {
