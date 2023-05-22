@@ -38,4 +38,4 @@ O encriptador de texto com JavaScript é uma ferramenta básica, porém útil pa
 
 [Lucas Leite Vicente](https://www.linkedin.com/in/lucas-leite-vicente-136568207/)
 
-Clique no meu nome para acessar o meu perfil no Linkedin.
+Clique no nome para acessar o meu perfil no Linkedin.
