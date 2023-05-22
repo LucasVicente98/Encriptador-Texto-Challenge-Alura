@@ -37,4 +37,5 @@ O encriptador de texto com JavaScript é uma ferramenta básica, porém útil pa
 ## Autor
 
 Lucas Leite Vicente
+
 [Clique aqui para acessar o meu perfil no Linkedin](https://www.linkedin.com/in/lucas-leite-vicente-136568207/)
