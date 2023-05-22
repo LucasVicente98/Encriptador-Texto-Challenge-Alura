@@ -34,8 +34,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 O encriptador de texto com JavaScript é uma ferramenta básica, porém útil para proteger informações sensíveis de terceiros. O algoritmo é eficaz para este propósito e a interface de usuário é intuitiva e fácil de usar. O uso de tecnologias como HTML, CSS e JavaScript torna o projeto acessível e escalável. Além disso, a funcionalidade "copiar" permite que o usuário utilize o resultado de forma conveniente e eficiente.
 
 
-## Autor
+## Autor - Clique no nome para acessar o meu perfil no Linkedin.
 
 [Lucas Leite Vicente](https://www.linkedin.com/in/lucas-leite-vicente-136568207/)
-
-Clique no nome para acessar o meu perfil no Linkedin.
